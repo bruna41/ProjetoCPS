@@ -1,0 +1,86 @@
+* { box-sizing: border-box;}
+body {
+    margin: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(247, 139, 76);
+    box-sizing: border-box;
+}
+div { display: inline-block; }
+.menu { 
+    position: absolute;
+    display: inline-block;
+    height: 90px;
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px; 
+    padding: 20px; 
+    background: rgb(212, 60, 14);
+    border-bottom: solid 1.5px rgb(36, 32, 32);
+}
+.menu a {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 800;
+    color: crimson;
+    margin: 0px;
+    background: rgb(205, 164, 243);
+    border-radius: 100px;
+    padding: 10px 30px;
+}
+.menu a:active { background: none;}
+.img {
+    position: relative;
+    top: 0px;
+    right: 0;
+    bottom: 310px;
+    left: 350px;
+    margin: auto;
+}
+h1 {
+    text-align: center;
+}
+.i {
+    height: 300px;
+}
+.img2 {
+    display: table-cell;
+    float: left;
+    margin: 25px;
+}
+.conteudo {
+    display: table;
+}
+.paragrafo {
+    display: table-cell;
+    float: left;
+    width: 300px;
+    margin-top: -20px;
+    margin-left: 20px;
+    text-align: center;
+}
+.titulo2 { color: rgb(37, 34, 32);}
+.duracao {
+    text-align: justify;
+    font-weight: 700;
+    top: 50px;
+}
+.d1 {
+    display: table-cell; 
+    float: left; 
+    margin: 25px;}
+.i2 {
+    position: relative;
+    display: table; 
+    float: right; 
+    top: 300px;
+    width: 15%;
+    margin-right: 100px;
+}
+.i3 {
+    position: relative;
+    display: table-cell; 
+    float: right; 
+    width: 20%;
+    top: 50px;
+}
